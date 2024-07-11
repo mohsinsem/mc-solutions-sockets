@@ -1,0 +1,801 @@
+.blurbg{
+    filter: blur(1px) !important;
+    background-color: #eeeff4 !important;
+    opacity: 1;
+}
+.loader-gif img{
+    width: 100px;
+    position: fixed;
+    left: 46%;
+    top: 45%;
+}
+select.form-control, select.asColorPicker-input, .dataTables_wrapper select, .jsgrid .jsgrid-table .jsgrid-filter-row select, .select2-container--default select.select2-selection--single, .select2-container--default .select2-selection--single select.select2-search__field, select.typeahead, select.tt-query, select.tt-hint{
+	color: #333333d4;
+}
+label {
+    color: #333333d4;
+}
+.dataTables_wrapper .dataTable thead th {
+   background: #f3f3f3 !important;
+}
+.table th, .jsgrid .jsgrid-table th, .table td, .jsgrid .jsgrid-table td{
+	padding: 0.8rem 0.9375rem;
+}
+.mb-15{
+	margin-bottom: 15px;
+}
+
+.table td img, .jsgrid .jsgrid-table td img {
+    width: 50px;
+    height: 50px;
+}
+/* .table-responsive{
+	overflow-x: initial;
+} */
+.custom-cards .card-body{
+	padding: 0px;
+}
+.custom-cards .accordion .card{
+	margin-bottom: 0px;
+}
+.custom-cards .accordion.accordion-solid-header .card .card-header a{
+	padding: 13px;
+	background: #2258bf !important;
+	color: #fff !important;
+}
+.custom-cards .accordion.accordion-solid-header .card .card-body{
+	padding: 13px;
+}
+.form-control, .asColorPicker-input, .dataTables_wrapper select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-search__field, .typeahead, .tt-query, .tt-hint {
+	border: 1px solid #e3dfdf !important;
+}
+.badge{
+	padding: 0.305rem 0.3625rem;
+}
+.bodyCustom .btn-icon{
+	width: 22px;
+    height: 22px;
+    padding: 0px !important;
+    margin-left: 4px;
+}
+.dataTables_wrapper .dataTables_length select{
+	height: 30px !important;
+	width: 62px !important;
+}
+.main-panel .alert{
+	width: 97%;
+    margin: 11px auto;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link{
+	word-wrap: break-word;
+    white-space: initial;
+	padding: 8px 0.75rem;
+	line-height: 1.5;
+}
+.custom-lineheight{
+	line-height: 1.7 !important;
+}
+.btn-default{
+	background: #f3f3f3;
+    border: 1px solid #0000002e;
+}
+.underline{
+	text-decoration: underline;
+}
+
+
+.bg-funky {
+     background: #FF1744;
+}
+ .heading {
+     color: #000;
+     margin: 30px 30px 0px 30px;
+     font-weight: 600;
+}
+ img {
+    max-width: 100%;
+}
+ .inbox_msg {
+     border: 1px solid #c4c4c4;
+     clear: both;
+     overflow: hidden;
+}
+ .top_spac{
+     margin: 20px 0 0;
+}
+ .recent_heading {
+    float: left;
+     width:40%;
+}
+ .headind_srch{
+     padding:10px 29px 10px 20px;
+     overflow:hidden;
+     border-bottom:1px solid #c4c4c4;
+}
+ .recent_heading h4 {
+     color: #05728f;
+     font-size: 21px;
+     margin: auto;
+}
+ .chat_ib h5{
+     font-size:15px;
+     color:#464646;
+     margin:0 0 8px 0;
+}
+ .chat_ib h5 span{
+     font-size:13px;
+     float:right;
+}
+ .chat_ib p{
+     font-size:14px;
+     color:#989898;
+     margin:auto
+}
+ .chat_img {
+     float: left;
+     width: 11%;
+}
+ .chat_ib {
+     float: left;
+     padding: 0 0 0 15px;
+     width: 88%;
+}
+ .chat_people{
+     overflow:hidden;
+     clear:both;
+}
+ .chat_list {
+     border-bottom: 1px solid #c4c4c4;
+     margin: 0;
+     padding: 18px 16px 10px;
+}
+ .inbox_chat {
+     height: 550px;
+     overflow-y: scroll;
+}
+ .active_chat{
+     background:#ebebeb;
+}
+ .incoming_msg_img {
+     display: inline-block;
+     width: 4%;
+}
+ .received_msg {
+     display: inline-block;
+     padding: 0 0 0 10px;
+     vertical-align: top;
+     width: 92%;
+}
+ .received_withd_msg p {
+     background: #e4e8fb none repeat scroll 0 0;
+     border-radius: 3px;
+     color: #646464;
+     font-size: 14px;
+     margin: 0;
+     padding: 5px 10px 5px 12px;
+     width: 100%;
+}
+ .time_date {
+     color: #747474;
+     display: block;
+     font-size: 10px;
+     margin: 3px 0 0;
+}
+ .received_withd_msg {
+     width: 70%;
+}
+ .mesgs {
+     float: left;
+     padding: 40px;
+}
+ .sent_msg p {
+     background: #3F51B5 none repeat scroll 0 0;
+     border-radius: 3px;
+     font-size: 14px;
+     margin: 0;
+     color:#fff;
+     padding: 5px 10px 5px 12px;
+     width:100%;
+}
+ .outgoing_msg{
+     overflow:hidden;
+     margin:26px 0 26px;
+}
+ .sent_msg {
+     float: right;
+     width: 70%;
+     text-align: right;
+}
+ .input_msg_write input {
+     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+     border: medium none;
+     color: #4c4c4c;
+     font-size: 15px;
+     min-height: 48px;
+     width: 100%;
+}
+ .type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+ .msg_send_btn {
+     background: #05728f none repeat scroll 0 0;
+     border: medium none;
+     border-radius: 50%;
+     color: #fff;
+     cursor: pointer;
+     font-size: 17px;
+     height: 33px;
+     position: absolute;
+     right: 0;
+     top: 11px;
+     width: 33px;
+}
+ .messaging {
+     background: #fff;
+}
+ .msg_history {
+     max-height: 516px;
+     overflow-y: auto;
+}
+ .credit {
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+ .credit a {
+     color: #fff;
+     font-weight: 300;
+     letter-spacing: 2px;
+     border-bottom: dotted 1px;
+}
+
+.table-scroll{
+	overflow-x:auto;
+}
+
+.table th, .jsgrid .jsgrid-table th, .table td, .jsgrid .jsgrid-table td {
+    border: 1px solid #c8b9b982;
+}
+.dropdown .dropdown-menu .dropdown-item{
+	padding: 0.55rem 1.5rem;
+    border: 1px solid #aeaead54;
+}
+#search-panel{
+	background: #2258bff0;
+}
+#search-panel li a , .search-close{
+	color: #fff !important;
+	font-weight: 700;
+}
+td a .fa{
+	margin-top: 2px;
+}
+.countryDropdown .dropdown-item img{
+	margin-right: 10px;
+}
+.countryDropdown .dropdown-item{
+	padding: 0.25rem 1.5rem !important;
+}
+.countryDropdown{
+	margin-left: 24px;
+    margin-bottom: 3px;
+}
+#navbarLeftAlignExample li.nav-item {
+    /* background: aliceblue; */
+    border: 1px solid #aeaeae6b;
+    min-width: 110px;
+    text-align: center;
+    margin: 4px;
+    color: #fff !important;
+}
+#navbarQuickLinks{
+	background: #eeeeee;
+}
+#navbarQuickLinks .navbar-nav{
+	background: #fff;
+	/* justify-content: space-between; */
+    display: inline-flex;
+}
+#navbarQuickLinks .navbar-nav .nav-item{
+	border-right: 1px solid #aeaeae38;
+    min-width: 150px !important;
+}
+
+#navbarQuickLinks .navbar-nav .nav-item.show .dropdown-toggle[aria-expanded="true"]{
+	color: #fff !important;
+}
+#navbarQuickLinks .navbar-nav .nav-item .nav-link{
+	padding: 9px 14px;
+}
+#navbarQuickLinks .navbar-nav .nav-item:hover , #navbarQuickLinks .navbar-nav .nav-item .nav-link.active{
+	background: #2258bf;
+    color: #fff !important;
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	appearance: none;
+}
+#navbarQuickLinks .navbar-nav .nav-item .nav-link:hover{
+	color: #fff !important;
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	appearance: none;
+}
+.nav-pills .nav-link, .nav-pills .show > .nav-link {
+    /* color: #fff; */
+    color: #2258bf !important;
+    background-color: #eeeeee70 !important;
+    border-color: #d4d4d4 #d4d4d4 transparent;
+}
+.nav-pills .nav-link.active{
+	border-top: 4px solid #2258bf;
+    margin-top: 0;
+    position: relative;
+}
+.nav-pills{
+	padding-bottom: 0rem;
+	border: 0px;
+}
+#pills-tabContent{
+	border: 1px solid #cec3c375;
+}
+.overview .card .card-title{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.sale-summary{
+	padding: 10px;
+    background: #eeeeee4a;
+}
+.sale-summary li {
+    overflow: hidden;
+    border-top: solid 1px #eee;
+}
+.sale-summary li .sale-info {
+    float: left;
+    color: #646464;
+    font-size: 14px;
+    text-transform: uppercase;
+	margin-top: 6px;
+}
+.sale-summary li .sale-num {
+    float: right;
+    color: #169ef4;
+    font-size: 19px;
+    font-weight: 500;
+}
+.portlet > .portlet-title > .caption {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+.sale-summary .caption {
+    border-color: #c9c9c9;
+}
+.profile-nav li{
+	padding: 7px;
+    /* position: relative; */
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 1px 2px 35px 0 rgb(1 1 1 / 10%);
+	text-align: left;
+	background: aliceblue;
+}
+.pt-0{
+	padding: 0px;
+}
+.bd1{
+	border: 1px solid #aeaeae26;
+}
+.overview .tab-content{
+	padding: 2rem 0.5rem;
+}
+.overview .card .card-body{
+	padding: 1rem;
+}
+.bordernone{
+	border: none;
+}
+.profile td {
+    padding: 2px 10px;
+}
+.uniform-inline{
+	display: inline-flex;
+    width: 90px;
+    margin: 8px;
+}
+.uniform-inline input[type="radio"]{
+	margin-right: 8px;
+}
+.profile-nav a {
+    width: 100%;
+    display: block;
+	font-size: 15px;
+    padding-left: 5px;
+	color: #409eff;
+}
+.profile-nav-2 li {
+	padding: 0px;
+}
+.profile-nav li i {
+    width: 43px;
+    height: 45px;
+    display: inline-block;
+    color: #b9cbd5;
+    font-size: 15px;
+    padding: 15px 10px 10px 8px;
+    margin: 0 8px 0 0;
+    text-align: center;
+    background: #e0eaf0 !important;
+}
+.dot-opacity-loader{
+	top: 43%;
+    left: 50%;
+	position: absolute;
+}
+.mt-15{
+	margin-top: 15px;
+}
+.p10{
+	padding: 10px;
+}
+.nav-tabs-vertical .nav-link i.mdi , .nav-tabs-vertical .nav-link i.fa{
+    background: #2258bf12;
+    padding: 5px 10px;
+    margin-right: 7px;
+}
+.nav-tabs-vertical .nav-link i.fa{
+	padding: 5px 15px;
+}
+
+.nav-tabs-vertical .nav-link{
+   padding: 0.75rem 0.5rem;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+	padding: 6px 10px;
+    font-size: 0.925rem;
+}
+#navbarQuickLinks .fa {
+    margin-right: 3px;
+}
+/* .content-wrapper .card .card-body{
+	padding: 5px 20px;
+} */
+.template-demo .btn{
+	 text-transform: capitalize;
+}
+.normal-lineheight{
+	line-height: 1.7;
+}
+.select2-container .select2-selection--single .select2-selection__rendered{
+	padding-left: 0px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	color: #44444478;
+}
+.limit2lines{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;	
+}
+.select2-selection--multiple{
+	border-color: #08113b29 !important;
+}
+.select2-container .select2-selection--multiple{
+	min-height: 42px !important;
+}
+
+.accordion.accordion-solid-header .card .card-header a:before{
+	top: 27%;
+}
+.accordion.accordion-solid-header .card .card-header a{
+	background: #2258bf;
+    color: #ffffff;
+	padding: 9px 20px;
+    margin: 0px 10px;
+}
+#collapse-10{
+	border: 1px solid #aeaeafa6;
+	margin: 0px 10px;
+	z-index: 1;
+}
+#accordion-4{
+	width: 100%;
+	margin-bottom: 14px;
+}
+.accordion.accordion-solid-header .card .card-body {
+    padding: 0.5rem 2em;
+}
+#accordion-4 .form-control{
+	height: 2.2rem;
+}
+.swal2-modal .swal2-icon, .swal2-modal .swal2-success-ring {
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+#collapse-10 .select2-container .select2-selection--multiple , #collapse-10 .select2-container .select2-selection--single{
+	min-height: 35px !important;
+}
+#collapse-10 .select2-container .select2-selection--single{
+	padding: 0.63rem 1.375rem;
+}
+#DataTables_Table_0 input.form-control{
+	height: 1.975rem;
+}
+.ptZero{
+	padding-top: 0px !important;
+}
+.f-width .select2-container{
+	display: block !important;
+}
+.mZero{
+	margin: 0px;
+}
+.nav-pills .nav-link {
+    padding: 0.5rem 1.35rem;
+}
+#blockIP_table td{
+	padding: 0.2rem 0.9375rem;
+}
+.select2-selection__choice{
+	background: #2258bf !important;
+}
+
+
+.dropbtn i.menu-arrow:before {
+    content: "\F140";
+    font-family: "Material Design Icons";
+    font-style: normal;
+    display: block;
+    font-size: 1rem;
+    line-height: 10px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.dropbtn i.menu-arrow{
+	display: inline-block;
+}
+.dropbtn {
+	background-color: #2258bf;
+    color: white;
+    padding: 7px 13px;
+    font-size: 16px;
+    border: none;
+}
+.navbar-menu-wrapper .dropbtn {
+    margin-left: 39px;
+    width: 146px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.65rem 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #aeaeae33;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+	background: #2258bf;
+    color: #fff;
+}
+.custom-row{
+	width: 77%;
+	margin-left: 2px;
+    margin-bottom: 20px;
+}
+.custom-row .dropbtn{
+	display: block;
+	width: 100%;
+}
+.custom-row .dropdown{
+	width: 100% !important;
+	display: block !important;
+}
+.custom-row .btn-info {
+    color: #333333;
+    text-shadow: none;
+    background-color: #e5e5e5 !important;
+	text-align: left;
+	font-weight: 500;
+}
+.custom-row .dropbtn i.menu-arrow{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #fff !important;
+    background: #2258bf;
+    height: 100%;
+    width: 30px;
+ }
+.custom-row .dropbtn i.menu-arrow:before{
+	 margin-top: 10px;
+	 text-align: center;
+ }
+.custom-row .dropdown:hover .dropbtn{
+	 color: #000;
+ }
+.btn-warning{
+ color: #fff;
+}
+.jq-toast-wrap{
+	width: 300px;
+}
+.jq-toast-single h2{
+	font-size: 17px;
+}
+.jq-toast-single{
+	font-size: 14px;	
+}
+.export-buttons{
+	position: absolute;
+    bottom: 3px;
+    left: -7px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #2258bf;
+}
+
+
+@-webkit-keyframes blink {
+    50% {
+        background: #00c68942;
+    }
+}
+@-moz-keyframes blink {
+    50% {
+        background: #00c68942;
+    }
+}
+@keyframes blink {
+    50% {
+        background: #00c68942;
+    }
+}
+.blink {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: blink;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-direction: normal;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: blink;
+    -moz-animation-timing-function: linear;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: blink;
+    animation-timing-function: linear;
+}
+.cursor{
+	cursor: pointer;
+}
+.strikethrough{
+	text-decoration: line-through;
+}
+.help-block {
+    color: #2125297d;
+}
+.countryDropdown li{
+	width: 130px;
+    border-bottom: 1px solid #aeaeae;
+    padding: 2px 10px;
+}
+textarea.form-control{
+	line-height: 1.4;
+}
+.custom-width-td {
+    white-space: normal;
+    width: 235px;
+    line-height: 17px;
+    padding: 9px 2px;
+}
+.sidebar .nav .nav-item .nav-link i.menu-icon{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.sidebar .nav .nav-item .nav-link .menu-title{
+    color: #ffffff;
+    font-weight: 400;
+}
+.navbar .navbar-brand-wrapper{
+    color: #ffffff;
+    background: #2258bf;
+}
+.sidebar .nav .nav-item{
+    border-bottom: 0.5px solid #ffffff94;
+}
+.sidebar .nav .nav-item .nav-link i.menu-arrow:before{
+    font-size: 22px;
+    color: #fff;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link{
+    color: #ffffff;
+}
+.sidebar .nav.sub-menu .nav-item::before{
+    background: #ffffff;
+}
+.sidebar .nav.sub-menu{
+    padding: 0.25rem 0 0 3.25rem;
+}
+.sidebar .nav .nav-item .collapse{
+    background: #ddddde24;
+}
+.sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link{
+    background: #282a3c54;
+}
+.sidebar .nav.sub-menu .nav-item:hover {
+    background: #282a3c54;
+}
+.dashboard-widgets .bg-info{
+    background: #2258bfc9 !important;
+    border-radius: 16px;
+}
+.content-wrapper{
+    background: #fff;
+}
+.table th, .jsgrid .jsgrid-table th, .table td, .jsgrid .jsgrid-table td{
+    background: #fff;
+}
+.table thead th, .jsgrid .jsgrid-table thead th, .dataTables_wrapper .dataTable thead th {
+    background: #517bcd !important;
+    color: #fff;
+}
+.table-responsive{
+    overflow-x: hidden;
+}
+td a.btn-icon {
+    background-color: #fff;
+}
+.table td, .jsgrid .jsgrid-table td{
+	padding: 5px 12px !important;
+    color: #73879C;
+}
+.form-control, .asColorPicker-input, .dataTables_wrapper select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-search__field, .typeahead, .tt-query, .tt-hint{
+	height: 2.4rem;
+	padding: 10px;
+}
+.pagination .page-item.active .page-link, .jsgrid .jsgrid-pager .page-item.active .page-link, .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button .page-link, .jsgrid .jsgrid-pager .active.jsgrid-pager-page .page-link, .pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item.active a, .jsgrid .jsgrid-pager .active.jsgrid-pager-nav-button a, .pagination .page-item.active .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item.active .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item.active a, .jsgrid .jsgrid-pager .active.jsgrid-pager-page a, .pagination .page-item:hover .page-link, .jsgrid .jsgrid-pager .page-item:hover .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:hover .page-link, .pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:hover a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:hover a, .pagination .page-item:hover .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:hover .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:hover a, .jsgrid .jsgrid-pager .jsgrid-pager-page:hover a, .pagination .page-item:focus .page-link, .jsgrid .jsgrid-pager .page-item:focus .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:focus .page-link, .pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:focus a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:focus a, .pagination .page-item:focus .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:focus .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:focus a, .jsgrid .jsgrid-pager .jsgrid-pager-page:focus a, .pagination .page-item:active .page-link, .jsgrid .jsgrid-pager .page-item:active .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active .page-link, .jsgrid .jsgrid-pager .jsgrid-pager-page:active .page-link, .pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-nav-button a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button .page-item:active a, .jsgrid .jsgrid-pager .jsgrid-pager-nav-button:active a, .pagination .page-item:active .jsgrid .jsgrid-pager .jsgrid-pager-page a, .jsgrid .jsgrid-pager .page-item:active .jsgrid-pager-page a, .jsgrid .jsgrid-pager .jsgrid-pager-page .page-item:active a, .jsgrid .jsgrid-pager .jsgrid-pager-page:active a, .btn-primary, .wizard > .actions a{
+	background: #517bcd;
+    border-color: #517bcd;
+}
+.table tbody tr:hover {
+    background-color: #f7dfda !important;
+}
+.footer{
+	width: 100%;
+}
+.sidebar{
+	background: #2258bf;
+}
+@media (min-width: 576px){
+	.modal-dialog {
+		max-width: 650px;
+		margin: 30px auto;
+	}
+}
